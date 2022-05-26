@@ -83,15 +83,16 @@ body {
 
 .navigation {
     display: flex;
-    margin-left: 93px;
+    /* margin-left: 93px; */
 }
 
 .navigation .menu {
-    display: block;
+    /* display: block; */
     margin-right: 50px;
-}
+   }
 
 .navigation .link {
+    display: block;
     padding-top: 32px;
     padding-bottom: 32px;
 
@@ -102,10 +103,14 @@ body {
 }
 
 .contact-links .feedback {
+    display: block;
     padding-top: 32px;
     padding-bottom: 32px;
 }
+.main-header {
+    margin-left: 93px;
 
+}
 
 
 .link {
@@ -401,11 +406,12 @@ body {
 
 .address {
     font-style: normal;
+    margin-top: 20px;
 
 }
 
 .footer-address {
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 9px;
     color: var(--primary-white-color);
     font-weight: 400;
@@ -464,7 +470,7 @@ body {
     background: #F5F4FA;
     padding: 6px 22px;
     margin-top: 0px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -485,7 +491,7 @@ body {
 .btn-current {
     padding: 6px 22px;
     margin-top: 0px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     background: var(--accent-color);
     color: var(--primary-white-color);
     font-family: inherit;
@@ -506,6 +512,7 @@ body {
 
 .select {
     margin-right: 8px;
+    margin-bottom: 50px;
 }
 
 .btn-select .select:last-child {
@@ -522,13 +529,15 @@ body {
 
 .site-nav {
     display: flex;
-    margin-left: 93px;
 }
+.site-nav .link {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
 
 .site-nav .menu {
     display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
     margin-right: 50px;
 }
 
